@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.containerA {
+  width: 100%;
+  height: 29%;
+  background-color: white;
+  border-radius: 8px;
+}
+.containerB {
+  width: 100%;
+  height: 18%;
+}
+.containerC {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+.containerC > div {
+  display: flex;
+  justify-content: center;
+}
+
+.containerB {
+  display: flex;
+  width: 100%;
+  height: 18%;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 8px;
+}
+.chartTitle {
+  margin: 5px;
+}
+.chartA {
+  width: 45%;
+  background-color: white;
+  border-radius: 8px;
+  line-height: 21px;
+}
+
+.chartA > div > :nth-child(2) {
+  font-weight: 700;
+  display: block;
+}
+.chartA > div > :nth-child(1) {
+  font-weight: 600;
+  font-size: 12px;
+}
+.chartA > div > :nth-child(3) {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.textContainer {
+  width: 48%;
+  margin: 7px;
+  height: 90%;
+}
+.textContainer > span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.textContainer > p {
+  font-size: 12px;
+}

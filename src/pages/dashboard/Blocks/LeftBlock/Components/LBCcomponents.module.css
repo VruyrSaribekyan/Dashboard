@@ -1,0 +1,79 @@
+.containerA {
+  display: flex;
+  width: 100%;
+  height: 29%;
+  background-color: #2bebc8;
+  border-radius: 8px;
+}
+.containerB {
+  display: flex;
+  width: 100%;
+  height: 18%;
+  justify-content: space-between;
+}
+.containerC {
+  width: 100%;
+  height: 46%;
+  position: relative;
+  background-color: white;
+}
+.containerC > p {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline;
+  margin: 8px;
+}
+.chartA {
+  width: 48%;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+}
+.chartTitle {
+  width: 47%;
+  height: 85%;
+  margin: 5px;
+}
+
+.chartA > div > :nth-child(2) {
+  font-weight: 700;
+  display: block;
+}
+.chartA > div > :nth-child(1) {
+  font-weight: 600;
+  font-size: 12px;
+}
+.chartA > div > :nth-child(3) {
+  font-weight: 400;
+  font-size: 12px;
+}
+.chartB {
+  border: 1px solid green;
+  width: 48%;
+}
+.textContainer {
+  width: 48%;
+  margin: 7px;
+  height: 90%;
+}
+.textContainer > span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.textContainer > p {
+  font-size: 12px;
+}
+.imgContainer {
+  width: 48%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-position: center;
+}
+.composedCharter {
+  width: 97%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+}
